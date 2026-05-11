@@ -59,6 +59,7 @@ nav i{
 
 .pokemonWindow:nth-child(1){
    background-color: black;
+   transform:scale(1.2);
 }
 
 .pokemonWindow{
@@ -99,6 +100,7 @@ main{
    top:50%;
    transform: translateY(-50%);
    padding-left:45px;
+   z-index:10;
 }
 
 .pokemonType{
@@ -110,8 +112,8 @@ main{
 
 main h1{
    font-family: poppins, montserrat, sans-serif;
-   font-size:100px;
-   font-weight: bolder;
+   font-size:120px;
+   font-weight: 900;
 }
 
 .pokemonDescription{
@@ -125,7 +127,7 @@ main h1{
    display: flex;
    align-items: center;
    gap:10px;
-   margin-top:20px;
+   margin-top:5%;
 }
 
 .pageNav p{
@@ -144,6 +146,7 @@ footer{
    position: absolute;
    top:100%;
    transform: translateY(-100%);
+   z-index:1;
 }
 
 .pokemonStamp{
@@ -155,10 +158,10 @@ footer{
 
 .pokemonImage{
    position: absolute;
-   height:620px;
-   width:600px;
-   top:50%;
-   left:65%;
+   height:85%;
+   width:37rem;
+   top:55%;
+   left:68%;
    transform: translate(-50%,-50%);
 }
 
