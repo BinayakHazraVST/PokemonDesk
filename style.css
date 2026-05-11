@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding:10px 20px;
+}
+
+@font-face {
+   font-family: montserrat;
+   src: url("./Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+   font-family: poppins;
+   src: url("./Poppins-SemiBold.ttf");
+}
+
+@font-face {
+   font-family: inter;
+   src: url("./Inter-VariableFont_opsz\,wght.ttf");
+}
+
+.pokemonDesk {
+  height:100%;
+  width:100%;
+  background-color: #f5ebc3;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px 40px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+nav{
+   position: absolute;
+   left:99%;
+   transform: translate(-100%);
+   height:100%;
+   padding:0 30px;
+}
+
+nav i{
+   font-size:40px;
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+.pokemonMenu{
+   position: absolute;
+   top:50%;
+   left:100%;
+   transform: translate(-100%,-50%);
+}
+
+.pokemonWindow:nth-child(1){
+   background-color: black;
+}
+
+.pokemonWindow{
+   height:15px;
+   width:15px;
+   border-radius: 50%;
+   background-color: rgb(235, 193, 77);
+   margin-bottom:20px;
+   margin-right:20px;
+   cursor: pointer;
+}
+
+.pokemonCard{
+   height:100%;
+   width:60%;
+   position: absolute;
+   top:0%;
+   left:0%;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   padding:20px 40px;
+   background-color: #f5c60e;
+}
+
+.pokemonLogoContainer{
+   height:100px;
+   width:200px;
+}
+
+.pokemonLogoContainer img{
+   height: 100%;
+   width:100%;
+   object-fit: cover;
+}
+
+main{
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+   padding-left:45px;
+}
+
+.pokemonType{
+   font-family: montserrat, sans-serif;
+   font-size:14px;
+   font-weight: 700;
+   letter-spacing: 0.3rem;
+}
+
+main h1{
+   font-family: poppins, montserrat, sans-serif;
+   font-size:100px;
+   font-weight: bolder;
+}
+
+.pokemonDescription{
+   font-family: inter, sans-serif;
+   font-size: 18px;
+   width:60%;
+   line-height: 36px;
+}
+
+.pageNav{
+   display: flex;
+   align-items: center;
+   gap:10px;
+   margin-top:20px;
+}
+
+.pageNav p{
+   font-family: inter, sans-serif;
+   font-size:20px;
+   font-weight: 700;
+}
+
+.line{
+   width:40px;
+   height:2px;
+   background-color: black;
+}
+
+footer{
+   position: absolute;
+   top:100%;
+   transform: translateY(-100%);
+}
+
+.pokemonStamp{
+   background-image: url("./pokemonStamp.png");
+   background-size: cover;
+   height:195px;
+   width:300px;
+}
+
+.pokemonImage{
+   position: absolute;
+   height:620px;
+   width:600px;
+   top:50%;
+   left:65%;
+   transform: translate(-50%,-50%);
+}
+
+.pokemonImage img{
+   height:100%;
+   width:100%;
+   object-fit: cover;
+}
+
+
+
