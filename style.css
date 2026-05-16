@@ -159,9 +159,9 @@ footer{
 .pokemonImage{
    position: absolute;
    height:85%;
-   width:37rem;
+   width:39rem;
    top:55%;
-   left:68%;
+   left:65%;
    transform: translate(-50%,-50%);
 }
 
